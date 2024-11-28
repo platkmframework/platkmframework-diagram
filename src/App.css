@@ -1,0 +1,5 @@
+.breadcrumb-main-item {
+    --bs-breadcrumb-divider: '',
+     aria-label:'breadcrumb'
+     
+}

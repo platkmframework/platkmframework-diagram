@@ -1,0 +1,1 @@
+export const C_MOUSE_STYLE_MOVE = 'move'

@@ -1,0 +1,349 @@
+.center {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height :90vh;   
+}
+
+.box {
+    width:300px;
+    height:300px; 
+    position:fixed;
+    margin-left:-150px; /* half of width */
+    margin-top:-150px;  /* half of height */
+    top:50%;
+    left:50%;
+}
+html,body {
+    height:100%;font-size:1.2em;
+}
+ 
+
+ 
+    
+
+.custom_style {
+    font-size:0.1em;
+}
+
+.custom_title_style {
+    font-size:1.5em; 
+    display: flex; 
+}
+
+.custom_menu_style {
+    font-size:1.7em;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+}
+
+.custom_center_style {
+    font-size:1.0em; 
+    align-items: center; 
+    text-align: center;
+    justify-content: center; 
+    
+}
+
+.pkm_table_center{
+    border:0px;margin-left:auto;margin-right:auto; 
+}
+
+.pkmcommentbutton{
+    margin-top: 15px;
+    height: 20px;
+    font-size: 1.0em; 
+}
+
+.pktableborder {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.canva_header{
+    font-weight: bold; 
+}
+
+.canvas_container{ 
+    height: 500px;
+    display: flex;
+    overflow-x: auto;overflow: auto;
+}
+
+.canvas_container1{ 
+    height: auto;
+    display: flex;
+    overflow-x: auto;overflow: auto;
+}
+
+.status_ticket_container {
+    float: left;
+    background-color: rgb(235, 237, 244);
+    margin-left:5px; 
+    margin-right:5px;
+    margin-bottom: 2px;
+    width:   auto; 
+     height: auto;
+     text-align: center;flex-shrink: 0;
+     border: 2px ;
+     border-radius: 12px;
+     padding: 5px;
+}
+
+.ticket-card{
+    margin-top: 3px; 
+}
+
+.canvas_sprints{
+    float: left; 
+    width: 200px;
+}
+
+.canvas_status_tickets{
+    float: left;
+}
+
+.component_content{
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.page_banner{  
+    background-color: rgb(229, 232, 247);
+    font-weight: bold; 
+    height: 25px;
+    margin-bottom: 10px;  
+}
+
+.schedule_worklog_filter {
+     
+    margin-left:5px;  
+    margin-bottom: 2px;
+    width:900px;
+    height: auto; 
+}
+
+.schedule_worklog{ 
+    margin:5px;
+    padding:5px; 
+     
+    height: auto;
+    overflow-x: auto;
+    overflow-y: auto;
+    text-align:justify;
+}
+
+.schedule_cell{
+    text-align: center;width: 10px;
+    white-space: nowrap;  padding: 5%;
+    margin: 0px;
+}
+ 
+
+.schedule_cell_tickets{
+    text-align: left;white-space: nowrap; width:200px
+}
+
+.schedule_task_name{
+    white-space: nowrap;
+}
+
+.enlace1{
+    color:rgb(85, 92, 92)
+}
+ 
+
+.document_type {
+    float: left;  
+    margin-left:5px; 
+    margin-right:5px;
+    margin-bottom: 2px;
+    width: 200px;
+    height: auto;
+    text-align: left;flex-shrink: 0;
+}
+
+.document_type_search {
+    float: left;  
+    margin-left:5px; 
+    margin-right:5px;
+    margin-bottom: 2px; 
+    width: auto;
+     height: auto;
+     text-align: left;flex-shrink: 0;
+}
+ 
+.change_pass {
+    display: flex;  
+    justify-content: center;
+    align-items: center; 
+    position:fixed; 
+    overflow-x: auto;
+}
+
+.platkm_footer{
+    display: flex;   
+}
+
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+.content {
+    /* padding the footer adds 40 to footer height */
+    padding-bottom: 140px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    background: #bdc6e2;
+    height: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    padding: 20px; 
+    width: 100%;align-items: center; 
+}
+
+
+.platkm_change_password {
+    display: flex;  
+    justify-content: center;
+    align-items: center; 
+}
+
+ 
+.diagram-container {
+    height:  400px;
+  }
+
+  .react-bpmn-diagram-container {
+    width: 100%;
+    height:  800px;
+  }
+
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 2.1);
+  }
+
+
+
+  /** -------------*/
+  .filter_popup {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    font-size: 12px;
+    width: 100%;
+    }
+
+.filter_popup_td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    }
+
+.filter_popup_th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    }
+/**
+    tr:nth-child(even) {
+    background-color: #dddddd;
+    }*/
+
+.filter_popup_pointer {cursor: pointer;} 
+
+
+.filter_popup_popup {
+    position: relative;
+    display: inline-block;
+    /**cursor: pointer;*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .filter_popup_popup .filter_popup_popuptext {
+   /** visibility: hidden; */
+    background-color: #555;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+   
+    right: 50%; 
+  }
+
+  .filter_popup_popup .filter_popup_popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid; 
+  }
+
+  .filter_popup_popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+  .myinput {
+    border-style: ridge;
+    border-width: 0.5px;
+  }
+
+
+  .general_text {
+    font-size:16px; 
+    font-family:sans-serif; 
+  }
+
+
+  .conten_section {
+    box-sizing: border-box;
+    border: 1px solid blue;
+    width: 100%;
+    float: left;
+  }
+  
+  .left {
+    float: left;
+     
+    margin: 2px; 
+    height: 1000px;
+  }
+  
+  .right {
+    float: right;
+  
+    margin: 1px; 
+    height: 1000px;
+  }
+
+  .container1 {
+    overflow: hidden;
+    scrollbar-gutter: stable;
+  }
+  
+  .container2 {
+    scrollbar-gutter: stable;
+  }
+
+  .exam{
+    width: 50%; height:1000px; overflow-y: scroll;float: left; 
+  }
+
+ 
